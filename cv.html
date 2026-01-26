@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV — Vasile Marin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="decoration"></div>
+    <div class="container">
+      <main class="cv">
+        <a href="index.html" class="back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Back
+        </a>
+
+        <header class="cv-header">
+          <h1 class="cv-name">Vasile Marin</h1>
+          <div class="cv-links">
+            <a href="https://github.com/vmarin93" target="_blank" rel="noopener noreferrer" class="cv-link">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/vasilemarin/" target="_blank" rel="noopener noreferrer" class="cv-link">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </header>
+
+        <section class="cv-section">
+          <h2 class="section-title">Profile</h2>
+          <p class="profile-text">
+            Backend developer with 1.5+ years of experience building web applications from concept to deployment, delivering full-stack solutions with automated CI/CD pipelines and cloud infrastructure. Specialized in Python APIs, offline-first Progressive Web Apps, and Google Cloud Platform. Seeking backend or full-stack engineering role to build scalable, maintainable systems.
+          </p>
+        </section>
+
+        <section class="cv-section">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="skill-group">
+            <p class="skill-label">Languages</p>
+            <p class="skill-items">Python, JavaScript, SQL, C, HTML, CSS</p>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label">Backend</p>
+            <p class="skill-items">FastAPI, SQLModel, PostgreSQL, RESTful APIs, OAuth2, JWT, Alembic</p>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label">Cloud & DevOps</p>
+            <p class="skill-items">Google Cloud Run, Neon Serverless Postgres, Docker, Docker Compose, GitHub Actions</p>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label">Frontend</p>
+            <p class="skill-items">Progressive Web Apps, Alpine.js, Service Workers, IndexedDB, Chart.js</p>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label">Tools</p>
+            <p class="skill-items">Git, uv, Ruff, Pyright, Biome, Google Secret Manager</p>
+          </div>
+        </section>
+
+        <section class="cv-section">
+          <h2 class="section-title">Key Projects</h2>
+          
+          <article class="project">
+            <div class="project-header">
+              <h3 class="project-name">TipsMate</h3>
+              <a href="https://tipsmate.uk" target="_blank" rel="noopener noreferrer" class="project-url">tipsmate.uk</a>
+            </div>
+            <p class="project-subtitle">Offline-First PWA for Restaurant Waiters — Full-Stack Application</p>
+            <p class="profile-text" style="margin-bottom: 1rem;">Designed and deployed a Progressive Web App enabling waiters to track tips across devices with full offline support. Built with a "No-Build" architecture using native browser features instead of bundlers.</p>
+            <ul class="project-details">
+              <li>
+                <span class="detail-label">Backend API:</span> Python 3.13 / FastAPI with SQLModel (unified ORM and validation) and Neon serverless PostgreSQL. Alembic for schema migrations. Implemented JWT auth with HttpOnly cookies, email verification via Resend, and password reset. Built bi-directional sync engine with conflict resolution (server-wins strategy) and soft deletes for reliable multi-device support.
+              </li>
+              <li>
+                <span class="detail-label">PWA Frontend:</span> Native ES Modules with Import Maps — no Webpack/Vite. Alpine.js for reactivity, Chart.js for visualizations, Dexie.js (IndexedDB) as offline database. Service Worker handles caching and background delta-sync when connectivity returns.
+              </li>
+              <li>
+                <span class="detail-label">Infrastructure & CI/CD:</span> Neon serverless Postgres (production) with Docker Compose for local dev (app + db + test db). GitHub Actions pipeline enforcing Ruff, Pyright, and Biome. Parallelized integration tests (pytest-xdist) with isolated database instances per worker. Deployed to Google Cloud Run (europe-west1) with auto-scaling and Google Secret Manager.
+              </li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project-header">
+              <h3 class="project-name">BasketIQ</h3>
+              <a href="https://basketiq.uk" target="_blank" rel="noopener noreferrer" class="project-url">basketiq.uk</a>
+            </div>
+            <p class="project-subtitle">Grocery Bill Tracking Platform</p>
+            <ul class="project-details">
+              <li>Built full-stack web application with FastAPI, PostgreSQL, HTMX, and Ag-Grid for tracking grocery bills, receipt parsing, and analytics</li>
+              <li>Developed RESTful APIs with OAuth2/JWT authentication and flexible ownership model for bill splitting</li>
+              <li>Integrated AWS SES, Lambda, and S3 to build automated email receipt processing pipeline</li>
+              <li>Containerized application with multi-stage Docker builds for production deployments</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="cv-section">
+          <h2 class="section-title">Education</h2>
+          
+          <div class="education-item">
+            <p class="education-name">42 London School, London</p>
+            <p class="education-date">Apr 2024 — Jul 2025</p>
+            <p class="education-desc">Intensive project-based training in C and software engineering. Key projects: Custom C library, printf implementation, 2D game engine, Unix pipeline clone.</p>
+          </div>
+
+          <div class="education-item">
+            <p class="education-name">CS50X — Harvard University Online</p>
+            <p class="education-date">Aug 2023 — Dec 2023</p>
+            <p class="education-desc">Computer science foundations, algorithms, web development (Flask, Jinja, REST APIs).</p>
+          </div>
+
+          <div class="education-item">
+            <p class="education-name">National Arts University George Enescu, Iași, Romania</p>
+            <p class="education-date">2013 — 2016</p>
+            <p class="education-desc">BA Performing Arts</p>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </body>
+</html>
