@@ -515,7 +515,7 @@ main.cv {
     }
 
     .links {
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
     }
 
