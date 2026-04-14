@@ -65,15 +65,13 @@
                 <section class="cv-section">
                     <h2 class="section-title">Profile</h2>
                     <p class="profile-text">
-                        Backend engineer with 2+ years of experience building
-                        and deploying production-grade APIs using Python
-                        (FastAPI) and PostgreSQL. Experienced in designing
-                        authentication systems, data synchronization, and
-                        cloud-native infrastructure on Google Cloud. Strong
-                        focus on building reliable, scalable backend services
-                        with CI/CD, automated testing, and containerized
-                        deployments. Seeking a backend engineering role to
-                        contribute to API platforms and distributed systems.
+                        Self-taught backend engineer based in London. Two years
+                        building and shipping production systems independently
+                        alongside working full-time in hospitality — two live
+                        products, 165 automated tests, sub-90s CI/CD pipeline.
+                        Specialised in Python, FastAPI, PostgreSQL, Docker, and
+                        GCP. Focused on reliability, test coverage, and systems
+                        that work under real conditions.
                     </p>
                 </section>
 
@@ -135,42 +133,44 @@
                         <p class="project-role">Backend Engineer</p>
                         <ul class="project-details">
                             <li>
-                                Designed and deployed a backend system
-                                supporting offline-first data sync across
-                                multiple clients.
+                                Designed and deployed a 15-endpoint REST API
+                                covering authentication, data synchronisation,
+                                and payslip management — fully documented with
+                                OpenAPI/Swagger and live at
+                                <a
+                                    href="https://tipsmate.uk/docs"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="project-url"
+                                    >docs</a
+                                >
                             </li>
                             <li>
-                                Implemented conflict resolution (server-wins)
-                                and eventual consistency.
+                                Engineered an offline-first sync system with
+                                server-wins conflict resolution and eventual
+                                consistency, enabling reliable state recovery
+                                after connectivity loss across multiple clients
                             </li>
                             <li>
-                                Built RESTful APIs using FastAPI and PostgreSQL
-                                (SQLModel).
+                                Optimised sync scheduling, reducing serverless
+                                database compute time from 13 to 8 hours/month
                             </li>
                             <li>
-                                Implemented JWT-based authentication, email
-                                verification, and password reset flows.
+                                Implemented JWT-based authentication with email
+                                verification and password reset flows using
+                                OAuth2 standards
                             </li>
                             <li>
-                                Developed asynchronous background sync to ensure
-                                reliable state recovery after connectivity loss.
+                                Managed schema evolution across 9 Alembic
+                                migrations, maintaining zero-downtime
+                                deployments throughout iterative development
                             </li>
                             <li>
-                                Managed schema evolution using Alembic
-                                migrations.
-                            </li>
-                            <li>
-                                Deployed containerized services to Google Cloud
-                                Run with auto-scaling and secret management.
-                            </li>
-                            <li>
-                                Built CI/CD pipeline using GitHub Actions with
-                                linting (Ruff), type-checking (Pyright), and
-                                automated tests.
-                            </li>
-                            <li>
-                                Implemented parallel integration testing with
-                                pytest-xdist and isolated PostgreSQL instances.
+                                Built a CI/CD pipeline using GitHub Actions with
+                                linting (Ruff), type-checking (Pyright), and 165
+                                automated tests (86 unit, 79 integration)
+                                running in parallel via pytest-xdist — average
+                                pipeline execution time under 90 seconds
                             </li>
                         </ul>
                     </article>
@@ -192,16 +192,15 @@
                         <p class="project-role">Backend Engineer</p>
                         <ul class="project-details">
                             <li>
-                                Developed backend services for a bill tracking
-                                and receipt processing platform.
+                                Built a 17-endpoint REST API for bill tracking
+                                and user management
                             </li>
                             <li>
-                                Implemented event-driven ingestion pipeline
-                                using AWS Lambda, S3, and SES.
-                            </li>
-                            <li>
-                                Built REST APIs for bill tracking and user
-                                management.
+                                Designed an event-driven email ingestion
+                                pipeline using AWS Lambda, S3, and SES —
+                                extracting structured receipt data from raw HTML
+                                email payloads through a multi-stage parsing
+                                system
                             </li>
                         </ul>
                     </article>
